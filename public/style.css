@@ -1,1 +1,82 @@
-/*empty*/
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+body {
+    font-family: arial;
+ }
+
+ .textcolor {
+    color: #ff5500;
+    display: inline-block;
+ }
+
+#headerimg {
+   opacity: 0.5;
+   height: 250px;
+   width: 100%;
+   overflow:hidden;
+}
+
+h1 {
+   position:absolute;
+}
+
+.wrapper {
+     display: grid;
+     grid-gap: 10px;
+     grid-auto-flow: column; 
+     grid-template-columns: 435px 350px 350px;
+     background-color: #fff;
+     color: #444;
+ }
+
+ .box {
+     background-color: #444;
+     color: #fff;
+     border-radius: 5px;
+     padding: 20px;
+     font-size: 150%;
+ }
+
+ .Glennsgoa {
+   grid-template-columns: 60px 60px;
+ }
+ .Änglarna {
+   grid-template-columns: 60px 60px;
+ }
+ .Frölunda {
+   grid-template-columns: 60px 60px;
+ }
+
+#burgerpic {
+ width: 250px;
+ height: 150px
+}
+
+ #hamburgare {
+    border: 5px dashed #fefefe;
+    border-radius: 15px;
+    background-color: rgb(19, 15, 226);
+    color: antiquewhite;
+ }
+ 
+ #leveransinformationheader {
+   background-color: rgb(19, 15, 226);
+   color: antiquewhite;
+}
+
+#leveransinformation {
+   border: 5px dashed rgb(19, 15, 226);
+   border-radius: 15px;
+   background-color: antiquewhite;
+   color: rgb(19, 15, 226);
+}
+ 
+ button:hover {
+    background-color:red;
+    color: antiquewhite;
+    font-weight: bold;
+ }
+
+ #knapp {
+    cursor:pointer;
+    font-weight: bold;
+  }
