@@ -46,7 +46,7 @@
     
       increase: function() {
         this.amountOrdered += 1
-        this.$emit('orderedBurger', { name:   this.burger.name, 
+        this.$emit('orderedBurgers', { name:   this.burger.name, 
                                 amount: this.amountOrdered 
                               }
   );
@@ -54,7 +54,7 @@
       decrease: function() {
         if(this.amountOrdered >= 1){
           this.amountOrdered -= 1
-          this.$emit('orderedBurger', { name:   this.burger.name, 
+          this.$emit('orderedBurgers', { name:   this.burger.name, 
                                 amount: this.amountOrdered 
                               }
   );

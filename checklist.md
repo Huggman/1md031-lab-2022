@@ -46,7 +46,7 @@ Your HomeView.vue file:
 - [x] ... contains a MenuItem constructor (that is not used)
 - [x] ... loads the information from the menu.json object and inserts the information to the burger selection section
 - [x] ... allows the customer to click in the interactive map to select delivery location
-- [ ] ... has an order button that sends the information from the text boxes, the gender, all items on the order, and the delivery location to the server (to be realyed to the dispatcher)
+- [x] ... has an order button that sends the information from the text boxes, the gender, all items on the order, and the delivery location to the server (to be realyed to the dispatcher)
 
 Your OneBurger.vue component:
 - [x] ... allows adding and removing burgers from the order
@@ -55,8 +55,8 @@ Your OneBurger.vue component:
 Your Dispatcher.vue file:
 - [x] ... shows for every order :
     - [x] a location on the map
-    - [ ] the order information
-    - [ ] the customer information
+    - [x] the order information
+    - [x] the customer information
 
 ## Optional
 - [ ] Only allow the order to be sent if all necessary information are provided

@@ -10,7 +10,7 @@
             <div class="wrapper">
             <Burger v-for="burger in burgers"
                     v-bind:burger="burger"
-                    v-bind:keys="burger.name"
+                    v-bind:key="burger.name"
                     v-on:orderedBurgers="addToOrder($event)"
                     />
               </div>
@@ -165,7 +165,7 @@ export default {
         y: this.location.y
       },
       orderItems: this.orderedBurgers,
-      customerInformation:[this.fn, this.ln, this.em, this.rcp, this.ge]
+      customerInformation: [this.fn, this.ln, this.em, this.rcp, this.ge]
     });
       },
 
